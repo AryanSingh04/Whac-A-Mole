@@ -30,6 +30,9 @@ moleImg.addEventListener("click",function(){
    document.getElementById("score").textContent= score
 })
      molePipe=document.getElementById(moleNum)
+         if(molePipe==plantPipe){
+        return
+     }
    molePipe.appendChild(moleImg)
 }
 
